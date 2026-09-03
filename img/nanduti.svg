@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="nanduti" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="#C1432E" opacity="0.3"/>
+      <circle cx="20" cy="20" r="8" fill="none" stroke="#8A9A5B" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="#16140F"/>
+  <rect width="1920" height="1080" fill="url(#nanduti)"/>
+  <text x="960" y="540" font-family="serif" font-size="48" fill="#F2EDE1" text-anchor="middle" opacity="0.3">Ñandutí - Encaje Paraguayo</text>
+</svg>
