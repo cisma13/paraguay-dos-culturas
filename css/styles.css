@@ -40,7 +40,6 @@ body{
     linear-gradient(180deg, rgba(22,20,15,0.55) 0%, rgba(22,20,15,0.45) 45%, rgba(22,20,15,0.72) 100%),
     radial-gradient(circle at 12% 20%, rgba(138,154,91,0.14), transparent 42%),
     radial-gradient(circle at 88% 78%, rgba(193,67,46,0.14), transparent 42%),
-    url('https://upload.wikimedia.org/wikipedia/commons/a/a1/Nanduti_3py.jpg') center 30%/cover no-repeat,
     var(--bg);
 }
 .hero::before{
@@ -52,7 +51,6 @@ body{
     repeating-linear-gradient(25deg, transparent 0 38px, rgba(242,237,225,0.035) 38px 39px);
   pointer-events:none;
 }
-/* Motivo tipo "sol" de ñandutí — el encaje nacido de la fusión guaraní/europea */
 .nanduti{
   position:absolute;
   top:-160px;
@@ -295,6 +293,7 @@ h1.title{
 section{
   padding:90px 0;
   border-top:1px solid rgba(242,237,225,0.08);
+  background-attachment:fixed;
 }
 .section-head{
   display:flex;
@@ -319,6 +318,70 @@ h2.section-title{
   max-width:26ch;
   text-align:right;
   text-shadow:0 2px 8px rgba(0,0,0,0.7);
+}
+
+/* ---------- SECCIONES CON FONDOS DISEÑADOS ---------- */
+#diglosia{
+  background:
+    linear-gradient(135deg, rgba(22,20,15,0.7) 0%, rgba(22,20,15,0.5) 50%, rgba(22,20,15,0.7) 100%), 
+    radial-gradient(circle at 15% 20%, rgba(193,67,46,0.15), transparent 40%),
+    radial-gradient(circle at 85% 80%, rgba(138,154,91,0.15), transparent 40%),
+    var(--bg);
+}
+
+#jopara{
+  background:
+    linear-gradient(115deg, rgba(22,20,15,0.72) 0%, rgba(22,20,15,0.55) 45%, rgba(22,20,15,0.72) 100%),
+    radial-gradient(circle at 10% 30%, rgba(138,154,91,0.12), transparent 40%),
+    radial-gradient(circle at 90% 70%, rgba(193,67,46,0.12), transparent 40%),
+    repeating-linear-gradient(115deg, transparent 0 38px, rgba(242,237,225,0.02) 38px 39px),
+    var(--bg);
+}
+
+#lore{
+  background:
+    linear-gradient(180deg, rgba(22,20,15,0.65) 0%, rgba(22,20,15,0.6) 100%),
+    radial-gradient(circle at 20% 40%, rgba(193,67,46,0.1), transparent 50%),
+    var(--bg);
+}
+
+#sincretismo{
+  background:
+    linear-gradient(135deg, rgba(22,20,15,0.8) 0%, rgba(22,20,15,0.7) 100%),
+    radial-gradient(circle at 20% 15%, rgba(193,67,46,0.18), transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(217,98,47,0.14), transparent 45%),
+    repeating-linear-gradient(35deg, transparent 0 3px, rgba(193,67,46,0.03) 3px 4px),
+    var(--bg);
+}
+
+#tererer{
+  background:
+    linear-gradient(135deg, rgba(22,20,15,0.7) 0%, rgba(22,20,15,0.6) 100%),
+    radial-gradient(circle at 25% 30%, rgba(138,154,91,0.1), transparent 45%),
+    var(--bg);
+}
+
+#historia{
+  background:
+    linear-gradient(180deg, rgba(22,20,15,0.68) 0%, rgba(22,20,15,0.6) 100%),
+    radial-gradient(circle at 15% 50%, rgba(193,67,46,0.12), transparent 50%),
+    var(--bg);
+}
+
+#audioteca{
+  background:
+    linear-gradient(135deg, rgba(22,20,15,0.68) 0%, rgba(22,20,15,0.62) 100%),
+    radial-gradient(circle at 30% 30%, rgba(193,67,46,0.1), transparent 50%),
+    var(--bg);
+}
+
+#digital{
+  background:
+    linear-gradient(90deg, rgba(22,20,15,0.75) 0%, rgba(22,20,15,0.8) 100%),
+    radial-gradient(circle at 80% 20%, rgba(138,154,91,0.12), transparent 40%),
+    repeating-linear-gradient(0deg, transparent 0 39px, rgba(242,237,225,0.03) 39px 40px),
+    repeating-linear-gradient(90deg, transparent 0 39px, rgba(242,237,225,0.03) 39px 40px),
+    var(--bg);
 }
 
 /* ---------- JOPARÁ ACCORDION ---------- */
